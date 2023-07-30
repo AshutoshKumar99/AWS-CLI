@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0ded8326293d3201b --count 1 --instance-type t2.micro --key-name ubuntukeypair --security-group-ids sg-0b2a92047af97e26b --subnet-id subnet-a0276bec
